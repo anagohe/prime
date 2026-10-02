@@ -1,0 +1,40 @@
+# dependencies
+# Quitamos la "/" inicial para que ignore node_modules donde sea que estén
+node_modules/
+.pnp
+.pnp.*
+
+# testing
+/coverage
+
+# next.js
+# Si el .gitignore está en la raíz, ponle el nombre de tu carpeta: primeteam-app/.next/
+.next/
+out/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (MUY IMPORTANTE por tu token de Sanity)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# vercel
+.vercel
